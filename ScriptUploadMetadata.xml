@@ -4,7 +4,8 @@
   <Protocol>Web - HTTP/HTML</Protocol>
   <ActionFiles>
     <FileEntry Name="vuser_init.c" Filter="2" />
-    <FileEntry Name="Action.c" Filter="2" />
+    <FileEntry Name="Search.c" Filter="2" />
+    <FileEntry Name="Buy.c" Filter="2" />
     <FileEntry Name="vuser_end.c" Filter="2" />
   </ActionFiles>
   <GeneralFiles>
@@ -16,10 +17,12 @@
     <FileEntry Name=".gitignore" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
     <FileEntry Name="Breakpoints.xml" Filter="1" />
-    <FileEntry Name="custom_body_variables.txt" Filter="1" />
     <FileEntry Name="lrw_custom_body.h" Filter="1" />
+    <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
     <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
+    <FileEntry Name="ThumbnailsCache.tmp" Filter="1" />
     <FileEntry Name="UserTasks.xml" Filter="1" />
     <FileEntry Name=".git\" Filter="1" />
+    <FileEntry Name="data\" Filter="1" />
   </GeneralFiles>
 </VugenScriptMetadata>

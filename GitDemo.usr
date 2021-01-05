@@ -18,14 +18,15 @@ DFERebrandFlag=Done
 ParamLeftBrace={
 ParamRightBrace=}
 ScriptLanguage=C
-LastCodeGenerationVer=
+LastCodeGenerationVer=2020.0.0.0
 DisableRegenerate=0
-Encoding=
+Encoding=ANSI
 Description=
 ScriptLocale=en-US
 [Actions]
 vuser_init=vuser_init.c
-Action=Action.c
+Search=Search.c
+Buy=Buy.c
 vuser_end=vuser_end.c
 [RunLogicFiles]
 Default Profile=default.usp
@@ -37,24 +38,32 @@ Default Profile=default.cfg
 globals.h=
 [Modified Actions]
 vuser_init=0
-Action=1
+Search=1
+Buy=0
 vuser_end=0
 [Recorded Actions]
 vuser_init=0
-Action=0
+Search=1
+Buy=0
 vuser_end=0
 [Replayed Actions]
 vuser_init=0
-Action=0
+Search=0
+Buy=0
 vuser_end=0
 [Interpreters]
 vuser_init=cci
-Action=cci
+Search=cci
+Buy=cci
 vuser_end=cci
 [TransactionsOrder]
-Order=
+Order="01__*delimiter*__02__*delimiter*__03"
 [StateManagement]
 LastReplayStatus=0
 [ActiveReplay]
 LastReplayedRunName=
 ActiveRunName=
+[Transactions]
+01=
+02=
+03=
